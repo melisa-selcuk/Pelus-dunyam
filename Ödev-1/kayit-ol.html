@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen Üye Ol</title>
+
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="text-brown">PELUŞ DÜNYAM</h1>
+    <nav>
+        <a href="index.html">Anasayfa</a> |
+        <a href="ürünlerimiz.html">Ürünlerimiz</a> |
+        <a href="contact-us.html">Hakkımızda</a> |
+        <a href="kayit-ol.html">Kayıt Ol</a>
+
+    </nav>
+
+    <hr>
+    <h2 class="text-brown">Kayıt Ol</h2>
+   
+</header>
+
+<h1 class="text-brown">Lütfen Formu Eksiksiz Doldurunuz.</h1>
+<hr>
+<h2 class="text-brown">Hesap Bilgileriniz</h2>
+
+<table>
+    <thead> 
+        <h3>Üyelik Formu </h3>
+    </thead>
+
+    <tbody>
+        <tr >
+            <td>
+                <label for="username">Kullanıcı Adı:</label>
+            </td> 
+            <td></td>
+    
+            <td style="width: 50 px;"></td>
+            <td><input type="username" id="username" placeholder="Kullanıcı Adı Giriniz."></td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label for="eposta">Eposta:</label>
+            </td> 
+            <td></td>
+    
+            <td style="width: 50px;"></td>
+    
+            <td><input type="email" id="eposta" placeholder="Eposta Giriniz."></td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label for="parola">Parola:</label>
+            </td> 
+            <td></td>
+    
+            <td style="width: 50px;"></td>
+    
+            <td><input type="password" id="parola" placeholder="Parola Giriniz."></td>
+        </tr>    
+
+    </tbody>
+   
+
+</table>
+
+<h2 class="text-brown">Kişisel Bilgileriniz</h2>
+
+<table>
+    <tr>
+        <td style="width: 120px;">
+            <label for="Adı">Adınız:</label>
+        </td>
+        <td style="width: 50px;"></td>
+
+        <td><input type="text" id="ad" placeholder="Adınızı Giriniz."></td>
+    </tr>
+
+    <tr>
+        <td >
+            <label for="soyad">Soyadınız:</label>
+        </td>
+        <td style="width: 50px;"></td>
+
+        <td><input type="text" id="ad" placeholder="Soyadınızı Giriniz."></td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="sehir">Şehir:</label>
+        </td>
+        <td style="width: 50px;"></td>
+
+        <td>
+            <select id="sehir">
+                <option>Seçiniz.</option>
+                <option>Ankara</option>
+                <option>Aydın</option>
+                <option>Eskişehir</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+                <option>Kocaeli</option>
+
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="cinsiyet">Cinsiyet:</label>
+        </td>
+        <td style="width: 50px;"></td>
+
+        <td> 
+    <!--Hepsine name dediğimiz zaman aynı grup elemanı oluyor ve tek bir tane seçim yapabilmemizi sağlıyor.-->        
+            <input type="radio"name="cinsiyet"> Erkek
+            <input type="radio"name="cinsiyet"> Kadın
+        </td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td>
+            <button type="submit">Kaydet</button>
+        </td>
+    </tr>
+</table>
+
+
+<!--Alt ve üst kutucukları eşitle!!-->
+
+</body>
+</html>

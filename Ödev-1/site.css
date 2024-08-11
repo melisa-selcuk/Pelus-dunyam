@@ -1,0 +1,77 @@
+
+        /* CSS'de not bu şekilde ekleniyor. */
+        /*  .class {} özelliği bu şekilde girilir. */
+        /* Oluşturduğum etiketi de ilgili yere class diyerek giriyorum. */
+        /* class etiketleri birden fazla HTML için kullanılabilir. */
+        /* ID seçicisi CSS’de # ile belirtilir. */
+        /* Bir ID’yi sadece bir HTML elementi üzerinde kullanabiliriz. */
+        
+
+        .text-brown { 
+            color:brown;
+        }
+
+        h1 {   
+            font-size: 35px;
+            text-align: center;   
+        }
+        
+        h3 {
+        color:rgb(118, 151, 28);
+        }
+
+        body {  
+            background-color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+       /*
+        text-align: center;
+        width: 120px;
+        margin: auto; 
+        bu özellikleri nav(linklerin bulunduğu kısmı) veya div (Anasayfa başlığı altında yazan kısmı) kısmına eklersem yazılarım da alt alta geliyor. */
+
+        /* Bu özellik ile resmi ortalıyorum fakat 1,2 şeklindeki sıralamam gidiyor. */ 
+        div.images {
+            width: 100%;
+            height: auto;
+          }
+
+        div.p {
+            text-align: center;
+            margin: auto;
+            padding: 15px;
+            width: 120px;
+        }
+        
+        div.desc {
+            padding: 15px;
+            width: 120px;
+            text-align: center;
+        }
+
+        article { 
+            text-align: center;
+            
+        }
+
+        /* Kayıt ol sayfasındaki yazı içeriğini ortaladım. */
+        tbody {
+            text-align: center;
+        }
+
+        /* Bu özellik ile kayıt ol sayfasındaki kutucukları ortaladım. */
+        table{
+           width: 120px;
+           text-align: center;
+           margin: auto;
+        }
+        /* Sırasız listedeki nokta işaretlerini ortalamak için. */
+        ul {
+            list-style-position: inside;
+          }
+          
+        ol { 
+            list-style-position: inside;
+        }
